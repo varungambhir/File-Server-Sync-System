@@ -1,0 +1,4 @@
+sudo mount -t cifs //remote/sharename /mnt/network -o username=remoteUsername uid=localUsernam
+sudo mount -t smbfs //fileserver2.pdc.jiit/ /mnt/network -o username= uid=
+
+intall smbclient
