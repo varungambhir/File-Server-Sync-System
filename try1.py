@@ -9,6 +9,7 @@ import Tkinter
 import ttk
 
 def populate_tree(tree, node):
+    l=[]
     if tree.set(node, "type") != 'directory':
         return
 
@@ -21,6 +22,7 @@ def populate_tree(tree, node):
     for p in special_dirs + os.listdir(path):
         ptype = None
         p = os.path.join(path, p).replace('\\', '/')
+        l.append(p)
         print p
         if os.path.isdir(p): ptype = "directory"
         elif os.path.isfile(p): ptype = "file"
@@ -35,6 +37,7 @@ def populate_tree(tree, node):
         elif ptype == 'file':
             size = os.stat(p).st_size
             tree.set(id, "size", "%d bytes" % size)
+    print l
 
 
 def populate_roots(tree):
@@ -65,10 +68,11 @@ def autoscroll(sbar, first, last):
         sbar.grid()
     sbar.set(first, last)
 
-
+unmount="""sudo umount -f -a -t cifs -l"""
 mount="""sudo mount -t cifs //fileserver2/13103535 /home/nirmit/File-Server-Sync-System-/ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+c=subprocess.check_output(unmount, shell=True)
 b= subprocess.check_output(mount, shell=True)
-a = subprocess.check_output('ls', shell=True)
+# a = subprocess.check_output('ls', shell=True)
 root = Tkinter.Tk()
 
 vsb = ttk.Scrollbar(orient="vertical")
