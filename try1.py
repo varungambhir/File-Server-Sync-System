@@ -7,7 +7,8 @@ import subprocess
 import glob
 import Tkinter
 import ttk
-
+def printme():
+    print "hello"
 def populate_tree(tree, node):
     l=[]
     if tree.set(node, "type") != 'directory':
@@ -22,6 +23,8 @@ def populate_tree(tree, node):
     for p in special_dirs + os.listdir(path):
         ptype = None
         p = os.path.join(path, p).replace('\\', '/')
+        check = ttk.Checkbutton(tree,command=printme,text=p)#create a widget
+        check.select()
         l.append(p)
         print p
         if os.path.isdir(p): ptype = "directory"
@@ -33,7 +36,7 @@ def populate_tree(tree, node):
         if ptype == 'directory':
             if fname not in ('.', '..'):
                 tree.insert(id, 0, text="dummy")
-                tree.item(id, text=fname)
+                # tree.item(id, text=fname)
         elif ptype == 'file':
             size = os.stat(p).st_size
             tree.set(id, "size", "%d bytes" % size)
@@ -78,14 +81,16 @@ root = Tkinter.Tk()
 vsb = ttk.Scrollbar(orient="vertical")
 hsb = ttk.Scrollbar(orient="horizontal")
 
-tree = ttk.Treeview(columns=("fullpath", "type", "size"),
-    displaycolumns="size", yscrollcommand=lambda f, l: autoscroll(vsb, f, l),
+tree = ttk.Treeview(columns=("fullpath", "type", "size","modified"),
+    displaycolumns="#all", selectmode="extended", yscrollcommand=lambda f, l: autoscroll(vsb, f, l),
     xscrollcommand=lambda f, l:autoscroll(hsb, f, l))
 
 vsb['command'] = tree.yview
 hsb['command'] = tree.xview
 
 tree.heading("#0", text="Directory Structure", anchor='w')
+tree.heading("modified", text="Last Modified", anchor='w')
+tree.column("modified", stretch=0, width=100)
 tree.heading("size", text="File Size", anchor='w')
 tree.column("size", stretch=0, width=100)
 
