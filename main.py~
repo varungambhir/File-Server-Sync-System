@@ -8,16 +8,11 @@ import tkMessageBox
 	
 lis=[]	
 minn=100000000
-
-pathsave="time\ table"  #path of checkboxes that are checked
-
-
-dictall={}  #stores all checkboxes
 dicti={}
 def doit():
 	global minn
 	minn=100000000
-	for root, dirs, files in os.walk("/home/varun/Desktop/Video-decoder"):
+	for root, dirs, files in os.walk("/home/varun"):
 	    path = root.split('/')
 	    minn=min(minn,len(path)-1)
 	    y=(len(path) - 1-minn) *'-' +    os.path.basename(root)   
@@ -67,28 +62,13 @@ class View(object):
 	    			if j+2 in dicti:
 	    				s=s+"."+str(dicti[j+2])
 	    		print s
-	    		dictall[s]=i
-	    		foo=str(i)
-	    		foo=foo.lstrip('-')
-	    		self.cl.hlist.add(s,text=foo)	
-	    		self.cl.setstatus(s,"off")
+	    		self.cl.hlist.add(s,text=i)	
+	    		self.cl.setstatus(s,"on")
 	    		self.cl.autosetmode()	
 	# print dicti	
 
     def selectItem(self, item):
-        #print item, self.cl.getstatus(item)
-        what=item
-        lenn=len(what)
-        for i in dictall:
-        	if i[0:lenn]==what:
-        		self.cl.setstatus(i,self.cl.getstatus(item))
-        		print i,self.cl.getstatus(i)
-        		till=dictall[i]
-        		till=till.lstrip('-')
-        			
-        		print pathsave+"/"+str(till)
-        	
-        
+        print item, self.cl.getstatus(item)
 
 def main():
     root = Tix.Tk()
@@ -100,9 +80,9 @@ def main():
     root.mainloop()
 
 if __name__ == '__main__':    
-    #unmount="""sudo umount -f -a -t cifs -l"""
-    #mount="""sudo mount -t cifs //fileserver2/Study\ Material/time\ table /home/varun -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
-    #c=subprocess.check_output(unmount, shell=True)
-    #b= subprocess.check_output(mount, shell=True)
+    unmount="""sudo umount -f -a -t cifs -l"""
+    mount="""sudo mount -t cifs //fileserver2/Study\ Material/time\ table /home/varun -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+    c=subprocess.check_output(unmount, shell=True)
+    b= subprocess.check_output(mount, shell=True)
     doit()
     main()
