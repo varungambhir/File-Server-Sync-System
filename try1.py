@@ -74,7 +74,7 @@ def autoscroll(sbar, first, last):
 unmount="""sudo umount -f -a -t cifs -l"""
 mount="""sudo mount -t cifs //fileserver2/13103535 /home/nirmit/File-Server-Sync-System-/ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
 c=subprocess.check_output(unmount, shell=True)
-b= subprocess.check_output(mount, shell=True)
+b= subprocess.check_output(mount, shell=True)   
 # a = subprocess.check_output('ls', shell=True)
 root = Tkinter.Tk()
 

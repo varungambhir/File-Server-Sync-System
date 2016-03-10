@@ -8,6 +8,8 @@ import tkMessageBox
 	
 lis=[]	
 minn=100000000
+local_path="""/home/nirmit/Desktop"""
+const="""/Computer Science & IT/Even Sem 2016/BTech/III Year"""
 
 pathsave=""  #path of checkboxes that are checked
 
@@ -17,11 +19,18 @@ dicti={}
 
 entirepath={}
 flist=[]  #MAIN
+file_p=None
+
 
 def Finallist():  #FINAL WORK
-	#print 'yo'
-	for i in flist:
-		print i
+    #print 'yo'
+    file_p = open("path_file.txt", "a+")
+    for path in flist:
+        path=path.replace(local_path,"")
+        path=const+path
+        print path
+        file_p.write("%s\n" % path)
+    file_p.close()
 	
 def RunSample(w):
     
@@ -39,7 +48,7 @@ def RunSample(w):
 def doit():
 	global minn
 	minn=100000000
-	for root, dirs, files in os.walk("/home/varun"):
+	for root, dirs, files in os.walk(local_path):
 	    path = root.split('/')
 	    for i in range(len(files)):
 		    what=str(root)+'/'+str(files[i])	
@@ -147,7 +156,8 @@ def main():
     
 if __name__ == '__main__':    
     unmount="""sudo umount -f -a -t cifs -l"""
-    mount="""sudo mount -t cifs //fileserver2/Study\ Material/time\ table /home/varun -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+    mount="""sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """+local_path+ """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+
     c=subprocess.check_output(unmount, shell=True)
     b= subprocess.check_output(mount, shell=True)
     doit()

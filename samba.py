@@ -1,22 +1,29 @@
 import smbclient
+import os
+import subprocess
+import time
+
 server="fileserver2"
 share="""Study Material"""
 username="9913103619"
 password="fghjkl"
 domain="pdc.jiit"
 smb = smbclient.SambaClient(server,share ,username, password, domain)
-print smb.listdir(u"/")
-path="""/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Notice - 21-01-2016 B4-B6.txt"""
-f1 = smb.open(path)
-# path="""/Even Sem 2016/B4-B6Tech/III Year/Compiler Design/Notice - 21-01-2016 B4-B6.txt"""
-# path="/Computer%20Science%20&%20IT/Even%20Sem%202016/BTech/III%20Year/Compiler%20Design/Notice%20- 21-01-2016 B4-B6.txt"
-# f2=smb.open(path)
-data = f1.read()
-# data1=f2.read()
-# # smb.rename(u'/abc.txt', u'/abcd.txt')
-# # smb._getfile(u"/abcd.txt",u"/new.txt")
+# print smb.listdir(u"/")
+path1="""/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Marks"""
+path="""/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Marks/B4-B6 T1 Marks.pdf"""
+# print smb.lsdir("/")
+# print smb.glob(path1)
+print smb.isdir(path1)
+print smb.isdir(path)
 
-smb.download(path,"wow.txt")
-# smb.download(path,"wow.txt")
+print smb.info(path)
+print smb.listdir(path1)
+f1 = smb.open(path)
+name="""B4-B6 T1 Marks.pdf"""
+print "last modified at local M/C: %s" % time.ctime(os.path.getmtime(name))
+
+f=open(name,"w+")
+smb.download(path,name)
+f.close()
 f1.close()
-# f2.close()
