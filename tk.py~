@@ -9,13 +9,13 @@ import tkMessageBox
 lis=[]	
 minn=100000000
 
-pathsave=""  #path of checkboxes that are checked
+pathsave="time\ table"  #path of checkboxes that are checked
 
 
 dictall={}  #stores all checkboxes
 dicti={}
 
-entirepath={}
+
 flist=[]  #MAIN
 
 def Finallist():  #FINAL WORK
@@ -39,18 +39,8 @@ def RunSample(w):
 def doit():
 	global minn
 	minn=100000000
-	for root, dirs, files in os.walk("/home/varun"):
+	for root, dirs, files in os.walk("/home/varun/Desktop/KNUTH"):
 	    path = root.split('/')
-	    for i in range(len(files)):
-		    what=str(root)+'/'+str(files[i])	
-		    entirepath[files[i]]=what
-		    #print 'entirepath['+str(files[i])+']='+what	
-            print 'start'    
-	    for i in range(len(dirs)):
-	    	whatn=str(root)+'/'+str(dirs[i])
-	    	entirepath[dirs[i]]=whatn
-	    	#print str(root)+str(dirs[i])	     
-	    print 'end'	
 	    minn=min(minn,len(path)-1)
 	    y=(len(path) - 1-minn) *'-' +    os.path.basename(root)   
 	    if y!='.':
@@ -124,10 +114,9 @@ class View(object):
         		#print pathsave+"/"+str(till)
         		
         		if self.cl.getstatus(i)=="on":
-        			flist.append(entirepath[till])
-        			#flist.append(str(till))
+        			flist.append(pathsave+"/"+str(till))
         		elif self.cl.getstatus(i)=="off":
-        			flist.remove(entirepath[till])	
+        			flist.remove(pathsave+"/"+str(till))	
         		
         		
         		
@@ -146,10 +135,10 @@ def main():
     root.mainloop()
     
 if __name__ == '__main__':    
-    unmount="""sudo umount -f -a -t cifs -l"""
-    mount="""sudo mount -t cifs //fileserver2/Study\ Material/time\ table /home/varun -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
-    c=subprocess.check_output(unmount, shell=True)
-    b= subprocess.check_output(mount, shell=True)
+    #unmount="""sudo umount -f -a -t cifs -l"""
+    #mount="""sudo mount -t cifs //fileserver2/Study\ Material/time\ table /home/varun -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+    #c=subprocess.check_output(unmount, shell=True)
+    #b= subprocess.check_output(mount, shell=True)
     doit()
     main()
     #RunSample(root)
