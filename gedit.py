@@ -9,7 +9,7 @@ import tkMessageBox
 lis=[]	
 minn=100000000
 local_path="""/home/nirmit/Desktop"""
-const="""/Computer Science & IT/Even Sem 2016/BTech/III Year"""
+const="""Computer Science & IT/Even Sem 2016/BTech/III Year"""
 
 pathsave=""  #path of checkboxes that are checked
 
