@@ -54,4 +54,3 @@ for i,j in zip(remote_file,local_file):
 # smb.download(path,name)
 # f.close()
 # f1.close()
-

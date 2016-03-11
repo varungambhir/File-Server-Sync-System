@@ -8,8 +8,8 @@ import tkMessageBox
 	
 lis=[]	
 minn=100000000
-local_path="""/home/nirmit/Desktop"""
-const="""/Computer Science & IT/Even Sem 2016/BTech/III Year"""
+local_path="""/home/varun/Desktop"""
+const="""Computer Science & IT/Even Sem 2016/BTech/III Year"""
 
 pathsave=""  #path of checkboxes that are checked
 
@@ -48,16 +48,16 @@ def RunSample(w):
 def doit():
 	global minn
 	minn=100000000
-	for root, dirs, files in os.walk(localpath):
+	for root, dirs, files in os.walk(local_path):
 	    path = root.split('/')
 	    for i in range(len(files)):
 		    what=str(root)+'/'+str(files[i])	
-		    entirepath[files[i]]=what
+		    entirepath[files[i]]=what    #dikkat problem gadbad
 		    #print 'entirepath['+str(files[i])+']='+what	
             print 'start'    
 	    for i in range(len(dirs)):
 	    	whatn=str(root)+'/'+str(dirs[i])
-	    	entirepath[dirs[i]]=whatn
+	    	entirepath[dirs[i]]=whatn #dikkat problem gadbad
 	    	#print str(root)+str(dirs[i])	     
 	    print 'end'	
 	    minn=min(minn,len(path)-1)
