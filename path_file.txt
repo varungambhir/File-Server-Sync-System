@@ -1,118 +1,240 @@
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/B3 Lab Test 1.txt
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 1.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 2.doc
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 3,4.doc
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 5 [29-Feb to 5-March].doc
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 6 Sample Problems - yacc.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab 6 [7-March to 12-March].doc
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Evaluation 1-B7.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Evaluation 1.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Marks/B4-B6 T1 Marks.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Marks/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/B3.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).a.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/Links for video lectures and other resources.txt
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).c.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).b.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).e.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).d.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/slr(1).f.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 1.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Theory/Compilers Principles Techniques and Tools (2nd Edition) .pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design
-Computer Science & IT/Even Sem 2016/BTech/III Year/Tutorials
-Computer Science & IT/Even Sem 2016/BTech/III Year/Theory
-Computer Science & IT/Even Sem 2016/BTech/III Year/Marks
-Computer Science & IT/Even Sem 2016/BTech/III Year/Lab
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Dreamworks Flyer_18March- JIIT.JPG
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/TT-Compiler Design Lab.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/~$Lab 1.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/NOTICE-CD Project.doc
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Thumbs.db
 Computer Science & IT/Even Sem 2016/BTech/III Year/References
-Computer Science & IT/Even Sem 2016/BTech/III Year/Lab Marks
-Computer Science & IT/Even Sem 2016/BTech/III Year/Lab Test 1
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 7.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 6.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 5.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 4.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 3.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Tutorials/Tutorial 2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Marks/Compiler Lab Marks.xls
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lexical analysis egs.pdf
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Thumbs.db
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex - A Lexical Analyzer Generator.htm
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex eg.ppt
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex help.txt
 Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lex yacc.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Group Details/B7.ods
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Group Details/B5.ods
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Group Details/B4.ods
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Group Details/B1.xlsx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Group Details/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 7.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 6.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 4&5.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 3.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Tutorial 1.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Dreamworks Flyer_18March- JIIT.JPG
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Notice-B7-9.txt
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/T1 Marks All.xlsx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/IMG_20200617_160339.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/Chapter 2.ppt
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/Chapter1.pptx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/xgraph
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/TUTORIAL SHEETS
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B1-B3 Kirti Aggarwal/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/tcp udp cnnction.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/throughput cal code.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/Introduction to Network Simulator NS2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/ns_doc.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/help folder/set environ var.txt
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B1-B3 Kirti Aggarwal/Questions.pptx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/IMG_20200617_160329.jpg
-Computer Science & IT/Even Sem 2016/BTech/III Year/B7,8,9 Aditi Sharma
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Possible Sols/Tutorial 3 Sol.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Possible Sols/Tutorial 2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/B10B13
-Computer Science & IT/Even Sem 2016/BTech/III Year/B4,B5,B6-SOMYA JAIN
-Computer Science & IT/Even Sem 2016/BTech/III Year/B1-B3 Kirti Aggarwal
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B7,8,9 Aditi Sharma/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B7,8,9 Aditi Sharma/assignment1.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Metrics_Comp_Network.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/project notice 2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Possible Sols/Tutorials 4&5.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/Possible Sols/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/CNLab Notice1 14-01-2016.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab test 1 notice.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/Tutorial Groups B10B13.xlsx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B10B13/CoPACS Assignment-B10,B13.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Tutorial
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/T1 Marks.xlsx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B1-B3 Kirti Aggarwal/tute 2 soln.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Tutorial/TUTORIAL SHEETS/~$torial 1.docx
-Computer Science & IT/Even Sem 2016/BTech/III Year/Possible Sols
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B4,B5,B6-SOMYA JAIN/Assignment 1.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Lab Assignment No 1.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Lab Assignments
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Thumbs.db
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Sample project list B12 Batch.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/help folder
-Computer Science & IT/Even Sem 2016/BTech/III Year/Group Details
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Lab Assignment No 2.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Lab Assignment No 3.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Lab Assignment No 4.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/Lab Assignment No 5.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Lab/Lab Assignments/B10.pdf
-Computer Science & IT/Even Sem 2016/BTech/III Year/Computer Networks/Theory/B4,B5,B6-SOMYA JAIN/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/MINOR PROJECT -[CSE]
+Computer Science & IT/Even Sem 2016/BTech/III Year/MINOR PROJECT -[CSE]/Minor Project_2016 - INSTRUCTIONS.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/MINOR PROJECT -[CSE]/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/MINOR PROJECT -[CSE]/Dreamworks Flyer_18March- JIIT.JPG
+Computer Science & IT/Even Sem 2016/BTech/III Year/MINOR PROJECT -[CSE]/Evalaution_ Synopsis _ Faculty List.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#7[7MAR-12MAR]/LAB#A[7MAR-12MAR].doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#7[7MAR-12MAR]/LAB#B[7MAR-12MAR].doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#2[25 -30 JAN]/LAB#A- Class, Inheritance, Progressions/~$B#A(26-31).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/python_networking(1).pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz#1_Instruction.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LabTest#1_INSTRUCTIONS.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Notice B7 batch Synopsis.odt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Dreamworks Flyer_18March- JIIT.JPG
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB#A
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB#B
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#2[25 -30 JAN]/LAB#A- Class, Inheritance, Progressions/LAB#A(26-31).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#2[25 -30 JAN]/LAB#A- Class, Inheritance, Progressions/progressions.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/globalvar.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#7[7MAR-12MAR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#6[29FEB-5MAR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#9[28MAR-2APR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Class Diagram/Dia.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/Quiz-2
+Computer Science & IT/Even Sem 2016/BTech/III Year/Study Material
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/name.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/sound
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/sound/todifar.ogg
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/sound/eat.wav
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/sound/background.ogg
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB_B Queues & List in Python Network Programming
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_A.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/__init__.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/worm.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/angrysnakes-angrysnakes
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/lab 1/hello.c
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/lab 1/Makefile
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#1[15 - 23 JANJ]/LAB#A/LAB#A(14-20).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/__init__.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/snake.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/strtolist.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/strtolist.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/wall.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/wall.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/worm.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/worm.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/__init__.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/quiz#3/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/quiz#3/Quiz#3(tue[10-12]).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/yipee.wav
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/Snake.png
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#9[28MAR-2APR]/lab#9A_Broadcasting.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/python-2.6.msi
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/python-3.1.1.msi
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/pywin32-216.win32-py2.6.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/software_python
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#4[8-13 Feb]/LAB#A(8-13 Feb)--Stack & Makefile.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/lab 1
+Computer Science & IT/Even Sem 2016/BTech/III Year/LDD 3
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/Python for Software Design.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#1[15 - 23 JANJ]/LAB#B/LAB#B(14-20).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#2[25 -30 JAN]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#3[1-6 FEB]
+Computer Science & IT/Even Sem 2016/BTech/III Year/week#10[18APR-23APR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#1[15 - 23 JANJ]
+Computer Science & IT/Even Sem 2016/BTech/III Year/help
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#4[8-13 Feb]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#5[15-20 FEB]
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#9[28MAR-2APR]/Lab#9B_IntroToPyGame.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/ai.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/serverside.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/serverside.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/singleplayer.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/singleplayer.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/snake
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/snake (1).py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/snake.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Lab#10A.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/strtolist.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/quiz#3/Quiz#3(fri[3-5]).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/quiz#3/B4_quiz.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/Week#8[14MAR-19MAR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/Snake_lib
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/network tutrial.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/__init__.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/snake.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Class Diagram/SNAKEPROJECT.dia
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Class Diagram/SNAKEPROJECT.dia~
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB#A- Class, Inheritance, Progressions
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#1[15 - 23 JANJ]/LAB#B/alarm1.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/slidemenu.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/input.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/input.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/clientside.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/AI.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/food.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/clientside.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/globalvar.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/food.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/input (1).py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/globalvar.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#6[29FEB-5MAR]/LAB B[29-5 MAR]/LAB#B(29FEB-5MAR).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/slidemenu.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB A[29-5 MAR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/LAB B[29-5 MAR]
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/ch01.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#4[8-13 Feb]/LAB#B(8-13Feb)-Queue & Makefile.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_B Queues & List in Python Network Programming/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_B Queues & List in Python Network Programming/~$B#B[15-20 FEB].doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_B Queues & List in Python Network Programming/LAB#B[15-20 FEB].doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_B Queues & List in Python Network Programming/LIST.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#5[15-20 FEB]/LAB_B Queues & List in Python Network Programming/QUEUES.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/map
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/option.csv
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/snake.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#3[1-6 FEB]/Lab#A[1-6]Feb -Python Network Programming.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#3[1-6 FEB]/LAB#B[1-6 FEB]- List,Array,Loop, sorting.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/Python programming books/Mobile Python - Rapid Prototyping of Applications on the Mobile Platform (2007).pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/Python programming books/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#3[1-6 FEB]/mergesort.ppt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#6[29FEB-5MAR]/LAB A[29-5 MAR]/LAB#A(29FEB-5MAR).doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/ip.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/FEASFBRG.TTF
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/bg.png
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/ai.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/B3_quiz 2(Tues 1-3).odt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/B13-b7.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/name.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/log.csv
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/slidemenu.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/singleplayer.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/AI.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/serverside.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/ch05.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/input.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/input.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/globalvar.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/QUIZ1_.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/Quiz#1_Fri(9-11).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/Quiz#1_Wed_3-5.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/map/level2.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/map/level3.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/map/level1.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/map/level4.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/data/map/level5.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/License.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/data
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/__init__.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/pax_global_header
+Computer Science & IT/Even Sem 2016/BTech/III Year/Snale2
+Computer Science & IT/Even Sem 2016/BTech/III Year/Snake3
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/socket-programming-in-python-1201718479603606-4.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/PyNet.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/wall.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/GNU `make'.htm
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/ldd3_pdf.tar.bz2
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/strtolist.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/Data
+Computer Science & IT/Even Sem 2016/BTech/III Year/Python programming books
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Snake2006.pyw
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/Addison Wesley - UNIX.Network.Programming.Volume.1.3rd.Ed.The.Sockets.Networking.API-LiB.chm
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/1590593715.djvu
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/dpkt-1.7.win32.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/beginning-python-from-novice-to-professional.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/Python
+Computer Science & IT/Even Sem 2016/BTech/III Year/LABS
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/SNPLAB-MARKSHEET.xls
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/SNP EVALUATION SCHEDULE.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/quiz#3
+Computer Science & IT/Even Sem 2016/BTech/III Year/QUIZ#1
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/SNP TT.xls
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/Quiz#1 fri(3-5).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/QUIZ#1/Mon(1-3).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz#3 Instruction.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/option.csv
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz#2 Instruction.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/FEASFBRG.TTF
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/bg.png
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/log.csv
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/data/ip.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/worm.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/LAB#10B.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/wall.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snake3/Snake_lib/AI.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/MainSnake.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/snake.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/__init__.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/Class Diagram
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/License.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/network tutrial.txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/README.md
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#8[14MAR-19MAR]/LAB#B_UDP PROGRAMMING.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/quiz2(mon1-3).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/QUIZ#2(TUE3-5).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/Quiz#2(Tues[10-12].txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/Mon-9-11.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Quiz-2/Quiz#2(MON 3-5).txt
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#2[25 -30 JAN]/LAB#B/Thumbs.db
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#2[25 -30 JAN]/LAB#B/LAB_B.doc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/software_python/pyOpenSSL-0.10.winxp32-py2.6.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/software_python/pywin32-214.win32-py2.6.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/software_python/pycrypto-2.0.1.win32-py2.6.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Python/software_python/Twisted_NoDocs-8.2.0.win32-py2.6.exe
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/ch04.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/ch02.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/Study Material/LDD 3/ch03.pdf
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/snake.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/slidemenu.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/singleplayer.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/serverside.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/clientside.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/food.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/AI.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/clientside.py
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/snake/angrysnakes-angrysnakes/Snake_lib/food.pyc
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/Week#8[14MAR-19MAR]/LAB#A_LABTEST#1.docx
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/Snake.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/scores.dat
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/food.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/foghorn.wav
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/hey.wav
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/centi2.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/centi.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/explosion1.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/centiback.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/body.gif
+Computer Science & IT/Even Sem 2016/BTech/III Year/System and Network Programming Lab/LABS/week#10[18APR-23APR]/Snale2/Data/bonus.gif
