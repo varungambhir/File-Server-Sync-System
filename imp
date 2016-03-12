@@ -4,10 +4,12 @@ sudo mount -t cifs //fileserver2/13103535 /mnt -o user=13103535,password=9899496
 sudo umount -f -a -t cifs -l
 
 * * * * * python /home/nirmit/File-Server-Sync-System-/samba.py
-
+FIle Server Sync System
+python /home/nirmit/File-Server-Sync-System-/main.py
 
 open
 sudo visudo -f /etc/sudoers.d/90-cloudimg-ubuntu
 paste
 $(user) ALL=(ALL) NOPASSWD:ALL
 
+http://askubuntu.com/questions/64222/how-can-i-create-launchers-on-my-desktop
