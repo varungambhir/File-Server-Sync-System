@@ -1,2 +1,2 @@
-f=open("what.txt","w+")
+f=open("/home/nirmit/what.txt","w+")
 f.write("sfhds")

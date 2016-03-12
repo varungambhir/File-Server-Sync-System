@@ -74,4 +74,4 @@ for i,j in zip(remote_file,local_file): #HURRAY DONE !!! :D  YESSSSSSSSS!!!!!!!!
 		smb.download(i,j)
 		f.close()
 
-os.system('notify-send ' + '"' + "Your SM is now Synchronized with the remote server !!!" + '"')
+os.system('notify-send "Your SM is now Synchronized with the remote server !!!" ' )

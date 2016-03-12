@@ -44,7 +44,7 @@ def RunSample(w):
     box = Tix.ButtonBox(w, orientation=Tix.HORIZONTAL)
     box.add('ok', text='OK', underline=0, width=5,
             command=lambda w=w: Finallist())
-    box.add('close', text='Cancel', underline=0, width=5,
+    box.add('close', text='Finish', underline=0, width=5,
             command=lambda w=w: w.destroy())
     box.pack(side=Tix.BOTTOM, fill=Tix.X)
     top.pack(side=Tix.TOP, fill=Tix.BOTH, expand=1)
@@ -96,8 +96,8 @@ class View(object):
         self.cl = Tix.CheckList(self.root, browsecmd=self.selectItem)
         self.cl.pack()
         count = 1
-        self.cl.config(height=700)
-        self.cl.config(width=700)
+        self.cl.config(height=900)
+        self.cl.config(width=1500)
         for i in lis:
             cn = self.dashcount(i)
             if cn in dicti:
@@ -138,7 +138,7 @@ class View(object):
 
 def main():
     root = Tix.Tk()
-    root.geometry('{}x{}'.format(1000, 1000))
+    root.geometry('{}x{}'.format(2000, 2000))
     view = View(root)
     root.update()
     root.mainloop()
