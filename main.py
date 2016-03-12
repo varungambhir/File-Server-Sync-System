@@ -11,7 +11,7 @@ lis = []
 minn = 100000000
 user=getpass.getuser()
 local_path = """/home/"""+user+"""/Desktop"""
-const = """Computer Science & IT/Even Sem 2016/BTech/III Year"""
+const = """/Computer Science & IT/Even Sem 2016/BTech/III Year"""
 
 pathsave = ""  # path of checkboxes that are checked
 
@@ -26,7 +26,7 @@ file_p = None
 
 def Finallist():  # FINAL WORK
     # print 'yo'
-    file_p = open("path_file.txt", "a+")
+    file_p = open("/home/"+user+"/File-Server-Sync-System-/path_file.txt", "a+")
     for path in flist:
         path = path.replace(local_path, "")
         path = const + path

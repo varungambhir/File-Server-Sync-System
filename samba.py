@@ -1,3 +1,4 @@
+#!/usr/bin python
 import smbclient
 import os
 import getpass
@@ -11,10 +12,10 @@ share="""Study Material"""
 username="13103535"
 password="9899496277"
 domain="pdc.jiit"
-attach= """/home/"""+user+"""/Desktop"""
+user=getpass.getuser()
+attach= """/home/"""+user+"""/Documents"""
 
 smb = smbclient.SambaClient(server,share ,username, password, domain)
-user=getpass.getuser()
 local_file=[]
 local_dir=[]#waste
 remote_file=[]
@@ -32,7 +33,7 @@ def pathtodir(path):
 	            os.mkdir(p)
 
 
-with open("path_file.txt", "r+") as f2:
+with open("/home/"+user+"/File-Server-Sync-System-/path_file.txt", "r+") as f2:
 	all_paths = [line.rstrip('\n') for line in f2]
 
 for item in all_paths:
@@ -72,3 +73,5 @@ for i,j in zip(remote_file,local_file): #HURRAY DONE !!! :D  YESSSSSSSSS!!!!!!!!
 		# f=open(j,"w+")
 		smb.download(i,j)
 		f.close()
+
+os.system('notify-send ' + '"' + "Your SM is now Synchronized with the remote server !!!" + '"')
