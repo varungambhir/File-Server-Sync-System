@@ -26,7 +26,7 @@ file_p = None
 
 def Finallist():  # FINAL WORK
     # print 'yo'
-    file_p = open("/home/"+user+"/File-Server-Sync-System-/path_file.txt", "a+")
+    file_p = open("/home/"+user+"/File-Server-Sync-System-/path_file.txt", "w+")
     for path in flist:
         path = path.replace(local_path, "")
         path = const + path
@@ -140,14 +140,15 @@ def main():
     root = Tix.Tk()
     root.geometry('{}x{}'.format(2000, 2000))
     view = View(root)
-    root.update()
+    root.update()   
     root.mainloop()
 
 if __name__ == '__main__':
+    # subprocess.Popen(sudoPassword , shell=True,stdout=subprocess.PIPE)
+    os.system('notify-send Please wait for the window to open' )
     unmount = """sudo umount -f -a -t cifs -l"""
-    mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ + \
-        local_path + """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
-    c = subprocess.check_output(unmount, shell=True)
-    b = subprocess.check_output(mount, shell=True)
+    mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+    subprocess.check_output(unmount, shell=True)
+    subprocess.check_output(mount, shell=True)
     doit()
     main()

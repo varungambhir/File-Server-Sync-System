@@ -1,5 +1,10 @@
 
 
 import os
+from Tkinter import * ### (1)
 
-os.system('notify-send ' + '"' + "sdgssdgsd" + '"')
+root = Tk()           ### (2)
+os.system('notify-send sdgsfgfdg' )
+root.mainloop()       ### (3)
+
+
