@@ -7,20 +7,3 @@
 /Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lex yacc.pdf
 /Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/Thumbs.db
 /Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/B3.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Lab Test 1
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory/Thumbs.db
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory/Dreamworks Flyer_18March- JIIT.JPG
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory/Course Description_10B22CI622_DM.doc
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory/Description of Data Mining Project.doc
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Data Mining Theory/Data-Mining-Concepts-and-Techniques-2ed-by-Han-Kamber.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/Thumbs.db
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/B3.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Lab Test 1
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex - A Lexical Analyzer Generator.htm
-/Computer Science & IT/Even Sem 2016/BTech/III Year/References
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lexical analysis egs.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Thumbs.db
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex eg.ppt
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex help.txt
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lex yacc.pdf

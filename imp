@@ -13,3 +13,4 @@ paste
 $(user) ALL=(ALL) NOPASSWD:ALL
 
 http://askubuntu.com/questions/64222/how-can-i-create-launchers-on-my-desktop
+http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password

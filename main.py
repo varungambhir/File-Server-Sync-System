@@ -145,7 +145,7 @@ def main():
 
 if __name__ == '__main__':
     # subprocess.Popen(sudoPassword , shell=True,stdout=subprocess.PIPE)
-    os.system('notify-send Please wait for the window to open' )
+    os.system('notify-send "Please wait for the window to open" ' )
     unmount = """sudo umount -f -a -t cifs -l"""
     mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
     subprocess.check_output(unmount, shell=True)
