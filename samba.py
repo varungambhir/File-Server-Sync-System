@@ -63,3 +63,5 @@ for i,j in zip(remote_file,local_file): #HURRAY DONE !!! :D  YESSSSSSSSS!!!!!!!!
 		f.close()
 
 os.system('notify-send "Your SM is now Synchronized with the remote server !!!" ' )
+#LEFT:
+# fileserver is not actually synched

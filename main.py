@@ -148,6 +148,7 @@ if __name__ == '__main__':
     os.system('notify-send "Please wait for the window to open" ' )
     unmount = """sudo umount -f -a -t cifs -l"""
     mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
+    # soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
     subprocess.check_output(unmount, shell=True)
     subprocess.check_output(mount, shell=True)
     doit()

@@ -1,4 +1,3 @@
-intall smbclient
 result = [os.path.join(dp, f) for dp, dn, filenames in os.walk('/mnt/') for f in filenames]
 sudo mount -t cifs //fileserver2/13103535 /mnt -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30
 sudo umount -f -a -t cifs -l
@@ -14,3 +13,7 @@ $(user) ALL=(ALL) NOPASSWD:ALL
 
 http://askubuntu.com/questions/64222/how-can-i-create-launchers-on-my-desktop
 http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password
+
+
+
+a = soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
