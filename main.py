@@ -9,24 +9,29 @@ import getpass
 
 lis = []
 minn = 100000000
-user=getpass.getuser()
-local_path = """/home/"""+user+"""/Desktop"""
-const = """/Computer Science & IT/Even Sem 2016/BTech/III Year"""
+user = getpass.getuser()
+local_path = """/home/""" + user + """/Desktop"""
 
+const = """/Computer Science & IT/Even Sem 2016/BTech/III Year""" # for Study Material
+# const = """""" # for my directory
+mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
+# mount = """sudo mount -t cifs //fileserver2/9913103619 """ + local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
+# soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
+
+unmount = """sudo umount -f -a -t cifs -l"""
 pathsave = ""  # path of checkboxes that are checked
-
 printhash = {}
-
 dictall = {}  # stores all checkboxes
 dicti = {}
-
 # entirepath={}
 flist = []  # MAIN
 file_p = None
 
+
 def Finallist():  # FINAL WORK
     # print 'yo'
-    file_p = open("/home/"+user+"/File-Server-Sync-System-/path_file.txt", "w+")
+    file_p = open("/home/" + user +
+                  "/File-Server-Sync-System-/path_file.txt", "w+")
     for path in flist:
         path = path.replace(local_path, "")
         path = const + path
@@ -36,6 +41,7 @@ def Finallist():  # FINAL WORK
         # print path
         file_p.write("%s\n" % path)
     file_p.close()
+
 
 def RunSample(w):
 
@@ -73,7 +79,9 @@ def doit():
                 # print x
                 lis.append(x)
 
+
 class View(object):
+
     def dashcount(self, x):
         count = 0
         for i in range(0, len(x)):
@@ -82,16 +90,19 @@ class View(object):
             else:
                 count = count + 1
         return count
+
     def removedash(s):
         ind = 0
         while s[ind] == '-':
             ind = ind + 1
         ret = s[ind:len(s) - 1]
         return ret
+
     def __init__(self, root):
         RunSample(root)
         self.root = root
         self.makeCheckList()
+
     def makeCheckList(self):
         self.cl = Tix.CheckList(self.root, browsecmd=self.selectItem)
         self.cl.pack()
@@ -118,6 +129,7 @@ class View(object):
                 self.cl.setstatus(s, "off")
                 self.cl.autosetmode()
         # print dicti
+
     def selectItem(self, item):
         # print item, self.cl.getstatus(item)
         what = item
@@ -136,20 +148,17 @@ class View(object):
                     # flist.remove(entirepath[till])
                     flist.remove(till)
 
+
 def main():
     root = Tix.Tk()
     root.geometry('{}x{}'.format(2000, 2000))
     view = View(root)
-    root.update()   
+    root.update()
     root.mainloop()
 
 if __name__ == '__main__':
-    # subprocess.Popen(sudoPassword , shell=True,stdout=subprocess.PIPE)
-    os.system('notify-send "Please wait for the window to open" ' )
-    unmount = """sudo umount -f -a -t cifs -l"""
-    mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=13103535,password=9899496277,workgroup=workgroup,ip=172.16.68.30"""
-    # soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
-    subprocess.check_output(unmount, shell=True)
+    os.system('notify-send "Please wait for the window to open" ')
     subprocess.check_output(mount, shell=True)
     doit()
     main()
+    subprocess.check_output(unmount, shell=True)

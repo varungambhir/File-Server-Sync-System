@@ -1,9 +1,2 @@
-/Computer Science & IT/Even Sem 2016/BTech/III Year/References
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lexical analysis egs.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Thumbs.db
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex - A Lexical Analyzer Generator.htm
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex eg.ppt
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/Lex help.txt
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/References/lex yacc.pdf
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/Thumbs.db
-/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Lab Test 1/B3.pdf
+/Computer Science & IT/Even Sem 2016/BTech/III Year/Compiler Design/Lab/Project Marks/CD Project Marks (B4, B6, B13).xlsx
+/Computer Science & IT/Even Sem 2016/BTech/III Year/Project Marks
