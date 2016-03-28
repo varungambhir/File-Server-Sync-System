@@ -4,6 +4,7 @@ import subprocess
 import glob
 import Tkinter
 import ttk
+from ttk import *
 import tkMessageBox
 import getpass
 
@@ -12,9 +13,10 @@ minn = 100000000
 user = getpass.getuser()
 local_path = """/home/""" + user + """/Desktop"""
 
-const = """/Computer Science & IT/Even Sem 2016/BTech/III Year""" # for Study Material
+const = """/Computer Science & IT/Even Sem 2016/BTech/III Year"""  # for Study Material
 # const = """""" # for my directory
-mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ +local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
+mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ + \
+    local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
 # mount = """sudo mount -t cifs //fileserver2/9913103619 """ + local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
 # soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
 
@@ -23,7 +25,6 @@ pathsave = ""  # path of checkboxes that are checked
 printhash = {}
 dictall = {}  # stores all checkboxes
 dicti = {}
-# entirepath={}
 flist = []  # MAIN
 file_p = None
 
@@ -44,7 +45,6 @@ def Finallist():  # FINAL WORK
 
 
 def RunSample(w):
-
     top = Tix.Label(w, padx=20, pady=10, bd=1, relief=Tix.RAISED,
                     anchor=Tix.CENTER, text='Select directories you wish to update\n')
     box = Tix.ButtonBox(w, orientation=Tix.HORIZONTAL)
@@ -63,11 +63,8 @@ def doit():
         path = root.split('/')
         for i in range(len(files)):
             what = str(root) + '/' + str(files[i])
-            # entirepath[files[i]]=what    #dikkat problem gadbad
         for i in range(len(dirs)):
             whatn = str(root) + '/' + str(dirs[i])
-            # entirepath[dirs[i]]=whatn #dikkat problem gadbad
-            # print str(root)+str(dirs[i])
         minn = min(minn, len(path) - 1)
         y = (len(path) - 1 - minn) * '-' + '/' + os.path.basename(root)
         if y != '.':
@@ -151,9 +148,14 @@ class View(object):
 
 def main():
     root = Tix.Tk()
+    root.style = Style()
+    #('clam', 'alt', 'default', 'classic')
+    root.style.theme_use("classic")
+
     root.geometry('{}x{}'.format(2000, 2000))
     view = View(root)
     root.update()
+
     root.mainloop()
 
 if __name__ == '__main__':

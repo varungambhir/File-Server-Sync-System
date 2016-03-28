@@ -7,7 +7,6 @@ import subprocess
 import time
 import re
 
-
 share = """Study Material""" # # for Study Material
 # share = """9913103619"""  ## for my directory
 
@@ -20,7 +19,6 @@ syspass=data[3]
 domain = "pdc.jiit"
 user = getpass.getuser()
 attach = """/home/""" + user + """/Documents"""
-# print server+username+password+syspass
 smb = smbclient.SambaClient(server, share, username, password, domain)
 local_file = []
 local_dir = []  
@@ -29,6 +27,7 @@ remote_dir=[]
 sorted_local_dir=[]
 local_dir_dict={}
 
+# print server,username,password
 def pathtodir(path):
     if not os.path.exists(path):
         l = []
@@ -51,7 +50,6 @@ for item in all_paths:
 remote_dir=list(set(remote_dir))
 # for i in remote_dir:
 #     print i
-
 for item in remote_dir:
 	if smb.exists(item):
 		local_dir.append(attach+item)
@@ -65,7 +63,6 @@ for i in local_dir:
 	# print i
 	if not os.path.exists(i):                
                 os.mkdir(i)
-	# pathtodir(os.path.dirname(i))
 		
 for item in remote_dir:
 	if smb.exists(item):
@@ -74,12 +71,6 @@ for item in remote_dir:
 				# print file
 				remote_file.append(item+"/"+file)
 				local_file.append(attach+item+"/"+file)
-# for i, j in zip(remote_file, local_file): 
-# 	print i
-	
-# 	print j
-# 	print
-
 for i, j in zip(remote_file, local_file):  # HURRAY DONE !!! :D  YESSSSSSSSS!!!!!!!!
     dict_ = smb.info(i)
     str_remote = re.sub(' +', ' ', dict_["write_time"])
@@ -91,6 +82,6 @@ for i, j in zip(remote_file, local_file):  # HURRAY DONE !!! :D  YESSSSSSSSS!!!!
         smb.download(i, j)
         f.close()
 
-os.system('notify-send "Your SM is now Synchronized with the remote server !!!" ')
+os.system('notify-send -i ~/File-Server-Sync-System-/sync-500x300.png "Your SM is now Synchronized with the remote server !!!" ')
 f.close()
 fp.close()

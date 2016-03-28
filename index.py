@@ -1,31 +1,13 @@
-
-
-#To save user's enrollment number and password in a text file named 'Details.txt'
-
 import os
 import tkMessageBox
 import Tkinter
 from Tkinter import *
-
-#DOWN
-
-import smbclient
-import os
-import datetime
 import getpass
 import subprocess
 import time
-import re
 import soldier
 
 user=getpass.getuser()
-
-
-
-
-#UP
-
-
 def_nameofserver=""
 def_enroll="" 
 def_pass=""
@@ -33,12 +15,8 @@ def_syspass=""
 
 top = Tkinter.Tk()
 
-
-
 def hello():
    f=open('Details.txt','w+')
-   # print uname.get() #Final username
-   # print passw.get() #Final password
    f.write(str(sname.get())+'\n')
    f.write(str(uname.get())+'\n')
    f.write(str(passw.get())+'\n')
@@ -59,10 +37,6 @@ try:
 except:
 	flag=1 #If no details entered yet
 
-#print flag
-#print def_nameofserver
-#print def_enroll
-#print def_pass
 B1 = Tkinter.Button(top, text = " Submit", command = hello,height=1)
 B2 = Tkinter.Button(top, text = " Sync.  ", command = sync)
 B3 = Tkinter.Button(top, text = " Select Directories  ", command = select_dir)
@@ -79,13 +53,9 @@ if flag==0:
 	sname.insert(END,def_nameofserver[0:len(def_nameofserver)-1]) #to prevent newline character to enter
 sname.pack()
 
-
 label = Label( top, textvariable=var, relief=RAISED )
 var.set("Enrollment Number:")
 label.pack()
-
-
-
 
 uname = Entry(top, width=25)
 if flag==0:
@@ -98,11 +68,6 @@ passw = Entry(top, show="*", width=25)
 if flag==0:
 	passw.insert(END,def_pass[0:len(def_pass)-1])
 
-
-
-
-
-
 var2 = StringVar()
 label2 = Label( top, textvariable=var2, relief=RAISED )
 var2.set("System password:")
@@ -110,14 +75,6 @@ sys_passw = Entry(top, show="*", width=25)
 if flag==0:
 	sys_passw.insert(END,def_syspass)
 
-
-
-
-
-
-
-
-	
 uname.pack()
 label1.pack()
 passw.pack()

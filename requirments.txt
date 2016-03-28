@@ -10,4 +10,5 @@ glob
 Tkinter
 ttk
 tkMessageBox
-
+soldier
+operator
