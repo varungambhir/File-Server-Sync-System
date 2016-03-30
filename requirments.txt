@@ -12,3 +12,4 @@ ttk
 tkMessageBox
 soldier
 operator
+tkFileDialog
