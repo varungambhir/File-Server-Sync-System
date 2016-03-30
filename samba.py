@@ -72,6 +72,7 @@ for item in remote_dir:
 				remote_file.append(item+"/"+file)
 				local_file.append(attach+item+"/"+file)
 for i, j in zip(remote_file, local_file):  # HURRAY DONE !!! :D  YESSSSSSSSS!!!!!!!!
+    # print i
     dict_ = smb.info(i)
     str_remote = re.sub(' +', ' ', dict_["write_time"])
     remote_last_mod = str_remote.split(" ")[3]

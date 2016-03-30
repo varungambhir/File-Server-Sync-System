@@ -1,4 +1,5 @@
 import os
+import smbclient
 import tkMessageBox
 import Tkinter
 from Tkinter import *
@@ -6,6 +7,8 @@ import getpass
 import subprocess
 import time
 import soldier
+from Tkinter import Tk
+from tkFileDialog import askopenfilename
 
 user=getpass.getuser()
 def_nameofserver=""
@@ -16,16 +19,37 @@ def_syspass=""
 top = Tkinter.Tk()
 
 def hello():
-   f=open('Details.txt','w+')
+   f=open('Details.txt','w+')   
    f.write(str(sname.get())+'\n')
    f.write(str(uname.get())+'\n')
    f.write(str(passw.get())+'\n')
    f.write(str(sys_passw.get()))
+   f.close() #
    return
 def sync(): #TODO
 	soldier.run("python /home/"+user+"/File-Server-Sync-System-/samba.py", sudo=def_syspass)
 def select_dir():#TODO
 	soldier.run("python /home/"+user+"/File-Server-Sync-System-/main.py", sudo=def_syspass)
+
+def upload():
+	fp=open("Details.txt","r")	
+	data = fp.read().splitlines()
+	server = data[0]
+	username = data[1]
+	password = data[2]
+	syspass=data[3]
+	share=data[1]
+	domain = "pdc.jiit"
+	smb = smbclient.SambaClient(server, share, username, password, domain)
+	Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+	path = askopenfilename() 
+	filename= os.path.basename(path)	
+	remote_path="""/"""+username+"""/"""
+	smb.upload(path, remote_path) 
+	smb.rename("""/"""+username,"""/"""+filename)
+	fp.close()
+	# print(filename)
+
 flag=0  
 
 try:   
@@ -40,6 +64,8 @@ except:
 B1 = Tkinter.Button(top, text = " Submit", command = hello,height=1)
 B2 = Tkinter.Button(top, text = " Sync.  ", command = sync)
 B3 = Tkinter.Button(top, text = " Select Directories  ", command = select_dir)
+B4 = Tkinter.Button(top, text = " Upload File  ", command = upload)
+
 T = Text(top, height=2, width=10)
 var = StringVar()
 var_sname = StringVar()
@@ -83,4 +109,5 @@ sys_passw.pack()
 B1.pack()
 B2.pack()
 B3.pack()
+B4.pack()
 top.mainloop()
