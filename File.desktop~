@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=File
-Terminal=true
-Exec=python /home/varun/File-Server-Sync-System-/index.py
-Hidden=false
-Icon=/home/varun/File-Server-Sync-System-/sync-500x300.png
