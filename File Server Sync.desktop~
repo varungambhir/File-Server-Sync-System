@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Icon=/home/varun/File-Server-Sync-System-/sync-500x300.png
+Name=File Server Sync
+Terminal=false
+Exec=python index.py
+Hidden=false

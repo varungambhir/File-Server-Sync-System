@@ -67,7 +67,7 @@ except:
 	flag=1 #If no details entered yet
 
 B1 = Tkinter.Button(top, text = " Submit", command = hello,height=1)
-B2 = Tkinter.Button(top, text = " Sync Manually ", command = sync)
+B2 = Tkinter.Button(top, text = " Sync.  ", command = sync)
 B3 = Tkinter.Button(top, text = " Select Directories  ", command = select_dir)
 B4 = Tkinter.Button(top, text = " Upload File  ", command = upload)
 

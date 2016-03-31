@@ -7,18 +7,22 @@ import subprocess
 import time
 import re
 
-share = """Study Material""" # # for Study Material
-# share = """9913103619"""  ## for my directory
-
-fp=open("Details.txt",'r')
+user = getpass.getuser()
+path_details="""/home/"""+user+"/File-Server-Sync-System-/Details.txt"""
+fp=open(path_details,'r')
 data = fp.read().splitlines()
 server = data[0]
 username = data[1]
 password = data[2]
 syspass=data[3]
-domain = "pdc.jiit"
-user = getpass.getuser()
+
+share = """Study Material""" # # for Study Material
+#share =username  ## for my directory
+
 attach = """/home/""" + user + """/Documents"""
+#attach = """/home/""" + user + """/Documents/"""+username # for my directory
+
+domain = "pdc.jiit"
 smb = smbclient.SambaClient(server, share, username, password, domain)
 local_file = []
 local_dir = []  
@@ -26,8 +30,8 @@ remote_file = []
 remote_dir=[]
 sorted_local_dir=[]
 local_dir_dict={}
+all_paths=[]
 
-# print server,username,password
 def pathtodir(path):
     if not os.path.exists(path):
         l = []
@@ -40,11 +44,13 @@ def pathtodir(path):
             if not os.path.exists(p):                
                 os.mkdir(p)
 
+if not os.path.exists("/home/"+user+"/Documents/"+username):                
+	os.mkdir("/home/"+user+"/Documents/"+username) 
 with open("/home/" + user + "/File-Server-Sync-System-/path_file.txt", "r+") as f2:
-    all_paths = [line.rstrip('\n') for line in f2]
-
+   all_paths = [line.rstrip('\n') for line in f2]
+#print all_paths
 for item in all_paths:
-    # print item
+#    print item
     if '.' in item:
         remote_dir.append( item.rsplit('/', 1)[0])
 remote_dir=list(set(remote_dir))
@@ -53,11 +59,13 @@ remote_dir=list(set(remote_dir))
 for item in remote_dir:
 	if smb.exists(item):
 		local_dir.append(attach+item)
+
 for i in local_dir:
-	# print i
+#	print i
 	local_dir_dict[i]=i.count('/')
 sorted_local_dir = sorted(local_dir_dict.items(), key=operator.itemgetter(1))
 local_dir = [x[0] for x in sorted_local_dir]
+
 pathtodir(os.path.dirname(local_dir[0]))
 for i in local_dir:
 	# print i
@@ -84,5 +92,6 @@ for i, j in zip(remote_file, local_file):  # HURRAY DONE !!! :D  YESSSSSSSSS!!!!
         f.close()
 
 os.system('notify-send -i ~/File-Server-Sync-System-/sync-500x300.png "Your SM is now Synchronized with the remote server !!!" ')
+os.system('play --no-show-progress --null --channels 1 synth %s sine %f' % ( 1, 91999))
 f.close()
 fp.close()

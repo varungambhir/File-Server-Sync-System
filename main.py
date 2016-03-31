@@ -12,13 +12,20 @@ lis = []
 minn = 100000000
 user = getpass.getuser()
 local_path = """/home/""" + user + """/Desktop"""
+path_details="""/home/"""+user+"/File-Server-Sync-System-/Details.txt"""
+fp=open(path_details,'r')
+data = fp.read().splitlines()
+server = data[0]
+username = data[1]
+password = data[2]
+syspass=data[3]
 
 const = """/Computer Science & IT/Even Sem 2016/BTech/III Year"""  # for Study Material
-# const = """""" # for my directory
-mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ + \
-    local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
-# mount = """sudo mount -t cifs //fileserver2/9913103619 """ + local_path + """ -o user=9913103619,password=pppppp,workgroup=workgroup,ip=172.16.68.30"""
-# soldier.run('sudo mount -t cifs //fileserver2/' + enroll + ' /mnt -o user='+enroll+',password='+passwd+'workgroup=workgroup,ip=172.16.68.30', sudo=syspass)
+#const=""
+
+#mount = """sudo mount -t cifs //fileserver2/Study\ Material/Computer\ Science\ \&\ IT/Even\ Sem\ 2016/BTech/III\ Year """ + \
+#    local_path + """ -o user="""+username+""",password="""+password+""",workgroup=workgroup,ip=172.16.68.30"""
+mount = """sudo mount -t cifs //fileserver2/"""+username+" " + local_path + """ -o user="""+username+""",password="""+password+""",workgroup=workgroup,ip=172.16.68.30"""
 
 unmount = """sudo umount -f -a -t cifs -l"""
 pathsave = ""  # path of checkboxes that are checked
@@ -122,7 +129,12 @@ class View(object):
                 dictall[s] = i
                 foo = str(i)
                 foo = foo.lstrip('-')
-                self.cl.hlist.add(s, text=foo)
+                
+                tem=foo
+                tem=tem.split('/')
+                
+                
+                self.cl.hlist.add(s, text=tem[len(tem)-1])  #TEXT HERE
                 self.cl.setstatus(s, "off")
                 self.cl.autosetmode()
         # print dicti
@@ -148,6 +160,7 @@ class View(object):
 
 def main():
     root = Tix.Tk()
+    root.wm_title("File Server Synchronization System")
     root.style = Style()
     #('clam', 'alt', 'default', 'classic')
     root.style.theme_use("classic")
