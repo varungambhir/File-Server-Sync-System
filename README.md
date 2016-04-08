@@ -9,7 +9,7 @@
 > software runs after a particular interval of time.
 
 ##To install required packagesfor  File-Server-Sync Software, run:
-`sudo pip install requirments.txt`
+`sudo pip install -r requirments.txt`
 
 Now, use crontab process of linux to run the software after a particular interval of time (need to do only once).
 ###Run the following commands on terminal:
