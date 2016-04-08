@@ -8,8 +8,12 @@
 > directory on the remote server. Using crontab process of linux, this
 > software runs after a particular interval of time.
 
-##To install required packagesfor  File-Server-Sync Software, run:
+##To install required packages for File-Server-Sync Software, run:
 `sudo pip install -r requirments.txt`
+
+##To install samba and cifs, run:
+`sudo apt-get install samba && sudo apt-get install cifs-utils`
+
 
 Now, use crontab process of linux to run the software after a particular interval of time (need to do only once).
 ###Run the following commands on terminal:
