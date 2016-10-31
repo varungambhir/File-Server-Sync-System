@@ -1,3 +1,5 @@
+//bamboo loves me
+
 /java/new.jpg
 /java/inp.java
 /java/ALL
