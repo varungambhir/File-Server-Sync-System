@@ -8,8 +8,9 @@ from ttk import *
 import tkMessageBox
 import getpass
 
+
 lis = []
-minn = 100000000
+minn = 1000000000
 user = getpass.getuser()
 local_path = """/home/""" + user + """/Desktop"""
 path_details="""/home/"""+user+"/File-Server-Sync-System-/Details.txt"""
